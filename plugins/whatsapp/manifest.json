@@ -1,0 +1,9 @@
+{
+  "id": "whatsapp",
+  "name": "WhatsApp",
+  "tier": "community",
+  "description": "WhatsApp: чтение чатов и сообщений, приём медиа; отправка текста, фото, видео и голосовых (в режиме «Чтение + отправка»). Вход по QR-коду. Встроена защита от блокировки — лимиты отправки.",
+  "permissions": ["runtime.browser", "runtime.ffmpeg", "spawn.sidecar", "tools.register", "net.egress"],
+  "egress": ["web.whatsapp.com", "*.whatsapp.com", "*.whatsapp.net"],
+  "icon": ""
+}

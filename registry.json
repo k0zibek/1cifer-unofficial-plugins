@@ -1,0 +1,30 @@
+{
+  "name": "1Cifer Community Plugins (unofficial)",
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "version": "0.1.39",
+      "tier": "community",
+      "description": "WhatsApp: чтение чатов и сообщений, приём медиа; отправка текста, фото, видео и голосовых (в режиме «Чтение + отправка»). Вход по QR-коду. Встроена защита от блокировки — лимиты отправки.",
+      "permissions": [
+        "runtime.browser",
+        "runtime.ffmpeg",
+        "spawn.sidecar",
+        "tools.register",
+        "net.egress"
+      ],
+      "icon": "",
+      "downloads": {
+        "darwin-arm64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.39/whatsapp-0.1.39-darwin-arm64.zip",
+        "darwin-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.39/whatsapp-0.1.39-darwin-x64.zip"
+      },
+      "egress": [
+        "web.whatsapp.com",
+        "*.whatsapp.com",
+        "*.whatsapp.net"
+      ]
+    }
+  ]
+}
