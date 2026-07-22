@@ -5,7 +5,7 @@
     {
       "id": "whatsapp",
       "name": "WhatsApp",
-      "version": "0.1.59",
+      "version": "0.1.60",
       "tier": "community",
       "description": "WhatsApp: чтение чатов и сообщений, приём медиа; отправка текста, фото, видео и голосовых (в режиме «Чтение + отправка»). Вход по QR-коду. Встроена защита от блокировки — лимиты отправки.",
       "permissions": [
@@ -17,7 +17,7 @@
       ],
       "icon": "",
       "downloads": {
-        "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.59/whatsapp-0.1.59-win32-x64.zip"
+        "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.60/whatsapp-0.1.60-win32-x64.zip"
       },
       "egress": [
         "web.whatsapp.com",
