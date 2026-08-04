@@ -25,7 +25,18 @@
         "web.whatsapp.com",
         "*.whatsapp.com",
         "*.whatsapp.net"
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "description": "WhatsApp in 1cifer: the agent reads chats and replies to customers — with text, photos, videos and voice messages. Connects in a minute via QR code."
+        },
+        "kk": {
+          "description": "1cifer-дегі WhatsApp: агент чаттарды оқып, клиенттерге жауап береді — мәтінмен, фотомен, бейнемен және дауыстық хабарламалармен. QR-код арқылы бір минутта қосылады."
+        },
+        "zh": {
+          "description": "1cifer 里的 WhatsApp：智能体读取聊天并回复客户 — 支持文本、照片、视频和语音。扫码一分钟即可接入。"
+        }
+      }
     }
   ]
 }
