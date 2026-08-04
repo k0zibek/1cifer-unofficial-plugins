@@ -8,17 +8,6 @@
       "version": "0.1.67",
       "tier": "community",
       "description": "WhatsApp в 1cifer: агент читает чаты и отвечает клиентам — текстом, фото, видео и голосовыми. Подключается за минуту по QR-коду.",
-      "i18n": {
-        "en": {
-          "description": "WhatsApp in 1cifer: the agent reads chats and replies to customers — with text, photos, videos and voice messages. Connects in a minute via QR code."
-        },
-        "kk": {
-          "description": "1cifer-дегі WhatsApp: агент чаттарды оқып, клиенттерге жауап береді — мәтінмен, фотомен, бейнемен және дауыстық хабарламалармен. QR-код арқылы бір минутта қосылады."
-        },
-        "zh": {
-          "description": "1cifer 里的 WhatsApp：智能体读取聊天并回复客户 — 支持文本、照片、视频和语音。扫码一分钟即可接入。"
-        }
-      },
       "permissions": [
         "runtime.browser",
         "runtime.ffmpeg",
@@ -29,7 +18,8 @@
       "icon": "",
       "downloads": {
         "darwin-arm64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.67/whatsapp-0.1.67-darwin-arm64.zip",
-        "darwin-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.67/whatsapp-0.1.67-darwin-x64.zip"
+        "darwin-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.67/whatsapp-0.1.67-darwin-x64.zip",
+        "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.67/whatsapp-0.1.67-win32-x64.zip"
       },
       "egress": [
         "web.whatsapp.com",
