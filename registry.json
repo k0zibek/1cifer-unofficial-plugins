@@ -5,27 +5,9 @@
     {
       "id": "whatsapp",
       "name": "WhatsApp",
-      "version": "0.1.66",
+      "version": "0.1.67",
       "tier": "community",
       "description": "WhatsApp в 1cifer: агент читает чаты и отвечает клиентам — текстом, фото, видео и голосовыми. Подключается за минуту по QR-коду.",
-      "permissions": [
-        "runtime.browser",
-        "runtime.ffmpeg",
-        "spawn.sidecar",
-        "tools.register",
-        "net.egress"
-      ],
-      "icon": "",
-      "downloads": {
-        "darwin-arm64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.66/whatsapp-0.1.66-darwin-arm64.zip",
-        "darwin-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.66/whatsapp-0.1.66-darwin-x64.zip",
-        "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.66/whatsapp-0.1.66-win32-x64.zip"
-      },
-      "egress": [
-        "web.whatsapp.com",
-        "*.whatsapp.com",
-        "*.whatsapp.net"
-      ],
       "i18n": {
         "en": {
           "description": "WhatsApp in 1cifer: the agent reads chats and replies to customers — with text, photos, videos and voice messages. Connects in a minute via QR code."
@@ -36,7 +18,24 @@
         "zh": {
           "description": "1cifer 里的 WhatsApp：智能体读取聊天并回复客户 — 支持文本、照片、视频和语音。扫码一分钟即可接入。"
         }
-      }
+      },
+      "permissions": [
+        "runtime.browser",
+        "runtime.ffmpeg",
+        "spawn.sidecar",
+        "tools.register",
+        "net.egress"
+      ],
+      "icon": "",
+      "downloads": {
+        "darwin-arm64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.67/whatsapp-0.1.67-darwin-arm64.zip",
+        "darwin-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.67/whatsapp-0.1.67-darwin-x64.zip"
+      },
+      "egress": [
+        "web.whatsapp.com",
+        "*.whatsapp.com",
+        "*.whatsapp.net"
+      ]
     }
   ]
 }
