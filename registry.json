@@ -28,6 +28,7 @@
       ],
       "icon": "",
       "downloads": {
+        "darwin-arm64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.68/whatsapp-0.1.68-darwin-arm64.zip",
         "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.68/whatsapp-0.1.68-win32-x64.zip"
       },
       "egress": [
