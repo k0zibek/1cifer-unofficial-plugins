@@ -5,7 +5,7 @@
     {
       "id": "whatsapp",
       "name": "WhatsApp",
-      "version": "0.1.68",
+      "version": "0.1.69",
       "tier": "community",
       "description": "WhatsApp в 1cifer: агент читает чаты и отвечает клиентам — текстом, фото, видео и голосовыми. Подключается за минуту по QR-коду.",
       "i18n": {
@@ -28,9 +28,7 @@
       ],
       "icon": "",
       "downloads": {
-        "darwin-arm64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.68/whatsapp-0.1.68-darwin-arm64.zip",
-        "darwin-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.68/whatsapp-0.1.68-darwin-x64.zip",
-        "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.68/whatsapp-0.1.68-win32-x64.zip"
+        "win32-x64": "https://github.com/k0zibek/1cifer-unofficial-plugins/releases/download/whatsapp-v0.1.69/whatsapp-0.1.69-win32-x64.zip"
       },
       "egress": [
         "web.whatsapp.com",
